@@ -43,3 +43,12 @@ type SubGroup struct {
 type Result struct {
 	Competitions []Competition `json:"competitions"`
 }
+
+```
+After running `main.go` file and serving `http` server, you can go to `localhost:8888/scrape/{id}` where `id` is competition `id` E.g `2020154`
+and `mux` router will write scraped resource straigt to your browser.  
+
+
+You basically get:  
+
+![example](demo/demo_screen.png)
