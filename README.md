@@ -57,5 +57,5 @@ You basically get:
 ## Challenges and some thoughts
 - This scraper still has some loose ends. Because structure of the website is generated with some kind of old CMS, `html` elements are mostly without `class` attributes, so to select something, you need some guessing if that item even exists.
 - Structure of `JSON` can be modified for more specific use cases, for me it was just some nested objects for nested scraping challenge.
-- Maybe later I could try add some `go routines` for concurrent request to the website.
+- Maybe later I could try to add some `go routines` for concurrent request to the website.
 - Error handling could be improved.
